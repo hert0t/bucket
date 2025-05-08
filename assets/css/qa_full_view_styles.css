@@ -1,0 +1,257 @@
+    @font-face{
+        font-family: Open Sans;
+        src: url('./NeueHaasGrotText-55Roman-App.ttf')
+    }
+    body{
+        font-family:Open Sans, Courier, monospace;
+        font-size:14px;
+    }
+    .ch_formatted_text a.ch_formatted_attachment,
+    .froala-element a.ch_formatted_attachment {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis
+    }
+    .ch_formatted_text a.ch_formatted_attachment,
+    .froala-element a.ch_formatted_attachment {
+        display: block;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
+        border-color: #e3e3e3;
+        background: #fcfcfc;
+        -moz-box-shadow: 0px 1px 1px #f3f3f3;
+        -webkit-box-shadow: 0px 1px 1px #f3f3f3;
+        box-shadow: 0px 1px 1px #f3f3f3;
+        border-width: 1px;
+        border-style: solid;
+        padding: 11px
+    }
+    .ch_formatted_text table,
+    .froala-element table {
+        width: 100%
+    }
+    .ch_formatted_text table th,
+    .froala-element table th {
+        background-color: #e3e3e3
+    }
+    .ch_formatted_text table th.even,
+    .froala-element table th.even,
+    .ch_formatted_text table th:nth-child(2n),
+    .froala-element table th:nth-child(2n) {
+        background-color: #e3e3e3-""
+    }
+    .ch_formatted_text table tr.odd td,
+    .froala-element table tr.odd td,
+    .ch_formatted_text table tr:nth-child(2n+1) td,
+    .froala-element table tr:nth-child(2n+1) td {
+        background-color: #f3f3f3
+    }
+    .ch_formatted_text table tr.odd td.even,
+    .froala-element table tr.odd td.even,
+    .ch_formatted_text table tr.odd td:nth-child(2n),
+    .froala-element table tr.odd td:nth-child(2n),
+    .ch_formatted_text table tr:nth-child(2n+1) td.even,
+    .froala-element table tr:nth-child(2n+1) td.even,
+    .ch_formatted_text table tr:nth-child(2n+1) td:nth-child(2n),
+    .froala-element table tr:nth-child(2n+1) td:nth-child(2n) {
+        background-color: #f3f3f3-""
+    }
+    .ch_formatted_text table tr.even td,
+    .froala-element table tr.even td {
+        background-color: #fff
+    }
+    .ch_formatted_text table tr.even td.even,
+    .froala-element table tr.even td.even,
+    .ch_formatted_text table tr.even td:nth-child(2n),
+    .froala-element table tr.even td:nth-child(2n) {
+        background-color: #fff-""
+    }
+    .ch_formatted_text table tfoot th,
+    .froala-element table tfoot th,
+    .ch_formatted_text table tfoot td,
+    .froala-element table tfoot td {
+        background-color: #fff
+    }
+    .ch_formatted_text table tfoot th.even,
+    .froala-element table tfoot th.even,
+    .ch_formatted_text table tfoot th:nth-child(2n),
+    .froala-element table tfoot th:nth-child(2n),
+    .ch_formatted_text table tfoot td.even,
+    .froala-element table tfoot td.even,
+    .ch_formatted_text table tfoot td:nth-child(2n),
+    .froala-element table tfoot td:nth-child(2n) {
+        background-color: #fff-""
+    }
+    .ch_formatted_text table th,
+    .froala-element table th {
+        font-weight: 600
+    }
+    .ch_formatted_text table th,
+    .froala-element table th,
+    .ch_formatted_text table td,
+    .froala-element table td {
+        border-width: 1px;
+        border-style: solid;
+        padding: 11px;
+        border-color: #e3e3e3
+    }
+    .ch_formatted_text ul,
+    .froala-element ul,
+    .ch_formatted_text ol,
+    .froala-element ol {
+        padding-left: 12px;
+        padding-right: 0px
+    }
+    .ch_formatted_text ul>li,
+    .froala-element ul>li,
+    .ch_formatted_text ol>li,
+    .froala-element ol>li {
+        margin-left: 12px;
+        margin-right: 0px
+    }
+    .ch_formatted_text ul,
+    .froala-element ul {
+        list-style: disc
+    }
+    .ch_formatted_text ol,
+    .froala-element ol {
+        list-style: decimal
+    }
+    .ch_formatted_text ol ul,
+    .ch_formatted_text ol ol,
+    .froala-element ol ul,
+    .froala-element ol ol {
+        margin-left: 12px;
+        margin-right: 0px
+    }
+    .ch_formatted_text ul ul,
+    .ch_formatted_text ul ol,
+    .froala-element ul ul,
+    .froala-element ul ol {
+        margin-left: 12px;
+        margin-right: 0px
+    }
+    .ch_formatted_text blockquote,
+    .froala-element blockquote {
+        margin-left: 18px;
+        margin-right: 0px;
+        border-left-width: 6px;
+        border-left-style: solid;
+        padding-left: 12px;
+        border-color: #e3e3e3;
+        font-style: italic
+    }
+    .ch_formatted_text pre,
+    .froala-element pre {
+        display: block;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
+        border-color: #e3e3e3;
+        background: #f3f3f3;
+        -moz-box-shadow: 0px 1px 1px #fff;
+        -webkit-box-shadow: 0px 1px 1px #fff;
+        box-shadow: 0px 1px 1px #fff;
+        border-width: 1px;
+        border-style: solid;
+        padding: 11px;
+        margin-bottom: 12px;
+        margin-top: 12px;
+        white-space: pre-wrap;       /* CSS 3 */
+        white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+        white-space: -pre-wrap;      /* Opera 4-6 */
+        white-space: -o-pre-wrap;    /* Opera 7 */
+        word-wrap: break-word;       /* Internet Explorer 5.5+ */
+
+        font-family: Open Sans, Courier, monospace
+    }
+    .ch_formatted_text sup,
+    .froala-element sup {
+        vertical-align: super;
+        font-size: smaller
+    }
+    .ch_formatted_text sub,
+    .froala-element sub {
+        vertical-align: sub;
+        font-size: smaller
+    }
+    .ch_formatted_text hr,
+    .froala-element hr {
+        margin-top: 18px;
+        margin-bottom: 18px;
+        border: none;
+        border-top-width: 1px;
+        border-top-style: solid;
+        padding-top: -1px;
+        border-color: #e3e3e3
+    }
+    .ch_formatted_text table,
+    .froala-element table {
+        margin-bottom: 12px;
+        margin-top: 12px
+    }
+    .ch_formatted_text table tr:nth-child(2n+2) td,
+    .froala-element table tr:nth-child(2n+2) td {
+        background-color: #fff
+    }
+    .ch_formatted_text u,
+    .froala-element u {
+        text-decoration: underline
+    }
+    .ch_formatted_text a.ch_formatted_attachment,
+    .froala-element a.ch_formatted_attachment {
+        position: relative;
+        padding-left: 72px;
+        padding-right: 12px;
+        margin-bottom: 18px;
+        margin-top: 18px;
+        width: 50%
+    }
+    .ch_formatted_text a.ch_formatted_attachment [class*='_prompt-icon'],
+    .froala-element a.ch_formatted_attachment [class*='_prompt-icon'] {
+        padding-left: 18px;
+        padding-right: 36px;
+        -moz-border-radius-topleft: 5px;
+        -webkit-border-top-left-radius: 5px;
+        border-top-left-radius: 5px;
+        -moz-border-radius-bottomleft: 5px;
+        -webkit-border-bottom-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        position: absolute;
+        background-color: #f3f3f3;
+        height: 100%;
+        top: 0;
+        left: 0
+    }
+    .ch_formatted_text a.ch_formatted_attachment [class*='_prompt-icon'] i,
+    .froala-element a.ch_formatted_attachment [class*='_prompt-icon'] i {
+        position: absolute;
+        top: 50%;
+        margin-top: -12px;
+        font-size: 16px;
+        line-height: 24px;
+        color: #3d3d3d
+    }
+    div.ch_formatted_text {
+      line-height: 1.618;
+    }
+    div.ch_blurred_text {
+        filter: blur(8px);
+        -webkit-filter: blur(8px);
+    }
+    .ch_formatted_text a.ch_formatted_attachment:before,
+    .froala-element a.ch_formatted_attachment:before {
+        padding-left: 18px;
+        padding-right: 18px;
+        -moz-border-radius-topleft: 5px;
+        -webkit-border-top-left-radius: 5px;
+        border-top-left-radius: 5px;
+        -moz-border-radius-bottomleft: 5px;
+        -webkit-border-bottom-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        padding-top: 12px;
+        border-right-width: 1px;
+        border-right-style: solid;
+        padding-right: 17px;
+        content: \"\f0c6\";font-family:FontAwesome;font-style:normal;font-weight:normal;font-size:16px;text-decoration:inherit;position:absolute;top:0;left:0;height:100%;color:#7d7d7d;border-color:#e3e3e3;background-color:#f3f3f3}
